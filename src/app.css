@@ -387,7 +387,6 @@ footer {
 /* Responsive */
 
 @media only screen and (max-width: 1280px) {
-
   .mobile {
     display: block;
   }
