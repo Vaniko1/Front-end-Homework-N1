@@ -383,32 +383,10 @@ footer {
   display: block;
 }
 
-.burger {
-  display: none;
-}
-
-.box {
-  min-width: 25px;
-  height: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.line {
-  width: 25px;
-  height: 3px;
-  background-color: #6c63ff;
-  border-radius: 1px;
-}
-
 /* ####################################################### */
 /* Responsive */
 
 @media only screen and (max-width: 1280px) {
-  .burger {
-    display: flex;
-  }
 
   .mobile {
     display: block;
@@ -644,6 +622,8 @@ footer {
     width: 100%;
   }
 
+  /* ####################################################### */
+  /* Blog Section */
   .blog_content_one {
     display: flex;
     flex-direction: column;
@@ -698,6 +678,8 @@ footer {
   .contact_banner {
     flex-direction: column;
   }
+  /* ####################################################### */
+  /* Footer */
   .footer_content {
     gap: 75px;
     justify-content: start;
