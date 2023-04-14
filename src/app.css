@@ -405,7 +405,7 @@ footer {
 /* ####################################################### */
 /* Responsive */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1280px) {
   .burger {
     display: flex;
   }
@@ -455,10 +455,7 @@ footer {
   }
 
   .hero_container_h1 {
-    font-size: 86px;
-    line-height: 88px;
     letter-spacing: -1px;
-    color: #2f2e41;
   }
 
   .hero_photo {
@@ -478,11 +475,8 @@ footer {
   }
 
   .main_container_h1 {
-    font-weight: 700;
     font-size: 58px;
-    line-height: 64px;
     letter-spacing: -1px;
-    color: #2f2e41;
   }
 
   .main_conatiner {
@@ -511,7 +505,7 @@ footer {
   }
 
   .blog_photo {
-    width: 325px;
+    width: 300px;
   }
 
   .blog_head {
@@ -591,14 +585,11 @@ footer {
   }
 
   .pricing_card {
-    background-color: #ecebff4d;
-    width: 690px;
-    height: 400px;
-    text-align: center;
+    width: 100%;
   }
 }
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 680px) {
   .container {
     width: 90%;
   }
@@ -639,7 +630,6 @@ footer {
   /* Main Section */
 
   .main_container_h1 {
-    font-weight: 700;
     font-size: 34px;
     line-height: 40px;
     letter-spacing: -1px;
